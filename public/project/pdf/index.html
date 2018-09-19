@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 2.4.0">
+  <meta name="generator" content="Hugo 0.48" />
+  
+
+  
+  
+  
+  
+    
+  
+  <meta name="description" content="Introdução ao LATEX - 3h Palestrante: Daniel Furtado Ferreira - UFLA
+Este minicurso tem pretende fazer uma pequena introdução ao LaTeX e aos seus recursos. A estrutura básica do curso está dividida em várias etapas. A primeira delas fará uma explicação básica ao programa e aos recursos que são necessários para sua instalação, que será focada essencialmente na plataforma Windows. Na segunda etapa serão abordadas a estrutura básica de um arquivo LaTeX, destacando alguns comandos básicos do preâmbulo e do uso de pacotes e de formatação do documento criado.">
+
+  
+  <link rel="alternate" hreflang="pt-br" href="/project/pdf/">
+
+  
+
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#4caf50">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous">
+        
+      
+    
+
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700%7cRoboto:400,400italic,700%7cRoboto&#43;Mono">
+  
+
+  <link rel="stylesheet" href="/styles.css">
+  
+
+  
+  
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="">
+  <link rel="feed" href="/index.xml" type="application/rss+xml" title="">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="/project/pdf/">
+
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="og:site_name" content="">
+  <meta property="og:url" content="/project/pdf/">
+  <meta property="og:title" content="Resumos | ">
+  <meta property="og:description" content="Introdução ao LATEX - 3h Palestrante: Daniel Furtado Ferreira - UFLA
+Este minicurso tem pretende fazer uma pequena introdução ao LaTeX e aos seus recursos. A estrutura básica do curso está dividida em várias etapas. A primeira delas fará uma explicação básica ao programa e aos recursos que são necessários para sua instalação, que será focada essencialmente na plataforma Windows. Na segunda etapa serão abordadas a estrutura básica de um arquivo LaTeX, destacando alguns comandos básicos do preâmbulo e do uso de pacotes e de formatação do documento criado.">
+  
+  
+    
+  <meta property="og:image" content="/img/icon-192.png">
+  <meta property="og:locale" content="pt-br">
+  
+  
+  
+  
+
+  
+
+  
+
+  <title>Resumos | </title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/"></a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#publications_selected">
+            
+            <span>Programação</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#posts">
+            
+            <span>Inscrições</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#projects">
+            
+            <span>Minicursos</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#teaching">
+            
+            <span>Tutorial</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#contact">
+            
+            <span>Contato</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#organizadora">
+            
+            <span>Comissão Organizadora</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article article-project" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+  <div class="article-container">
+
+    <div class="pub-title">
+      <h1 itemprop="name">Resumos</h1>
+      <span class="pub-authors" itemprop="author">&nbsp;</span>
+      <span class="float-right">
+        
+
+      </span>
+    </div>
+
+    
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<h1 id="introdução-ao-latex-3h">Introdução ao LATEX - 3h</h1>
+
+<p><strong>Palestrante</strong>: Daniel Furtado Ferreira - UFLA</p>
+
+<p><p align="justify"> Este minicurso tem pretende fazer uma pequena introdução ao LaTeX e aos seus recursos. A estrutura básica do curso está dividida em várias etapas. A primeira delas fará uma explicação básica ao programa e aos recursos que são necessários para sua instalação, que será focada essencialmente na plataforma Windows. Na segunda etapa serão abordadas a estrutura básica de um arquivo LaTeX, destacando alguns comandos básicos do preâmbulo e do uso de pacotes e de formatação do documento criado. Nesta etapa serão apresentados caracteres especiais, comandos e detalhes de espaçamento e de criação de parágrafos e inserção de comentários. Concluímos esta etapa com o objetivo deste minicurso. Na terceira etapa se apresentam várias características do LaTeX quanto a digitação de textos, desde a digitação de parágrafos até a apresentação dos corpos flutuantes. Posteriormente, na quarta etapa, apresentam-se as fórmulas matemáticas e os pacotes básicos para lidar com elas de forma otimizada. Apresentam-se comandos para matrizes, espaçamento no modo matemático, entre outros recursos. Na quinta etapa, apresentam-se conceitos básicos da bibliografia, índices remissivos, entre outros recursos adicionais. Na sexta etapa, pretende-se fazer uma breve introdução ao pacote tikz. Este pacote permite lidar com gráficos com um potencial extremamente elevado. Finalmente, se encerrará o minicurso com as conclusões principais da exposição dando-se os créditos a Donald E. Knuth e lembrando que o minicurso de baseou nas notas de Tobias Oetiker.<p></p>
+
+<h1 id="python-para-usuários-de-r-4-h">Python para usuários de R – 4 h</h1>
+
+<p><strong>Palestrantes</strong>: Lincoln Frias e Patrícia de Siqueira Ramos - UNIFAL</p>
+
+<p><p align="justify"> A linguagem Python tem sido cada vez mais utilizada para a análise de dados e machine learning (www.kaggle.com/surveys/2017). Por isso, o objetivo deste minicurso é apresentar um panorama da análise de dados em Python, indicando os pacotes essenciais e apontando semelhanças e diferenças em relação ao R. As principais funcionalidades que um estatístico espera estão nos seguintes pacotes: pandas (leitura de dados e operações com dataframes), numpy (operações vetoriais), scipy.stats (distribuições estatísticas), statsmodels (modelos de regressão), pymc3 e pyStan (inferência bayesiana) e scikit-learn (machine learning). Duas das bibliotecas mais utilizadas para a elaboração de redes neurais são escritas em Python: tensorflow/keras e pytorch. Há diversas opções para a elaboração de gráficos. O pacote matplotlib é o mais utilizado, maduro e versátil e serve de base para os pacotes  seaborn e plotnine (uma versão do ggplot2), que permitem gerar gráficos mais elaborados e maneira mais simples. O pacote altair é uma excelente novidade, pela elegância de sua sintaxe, grande capacidade de gerar gráficos interativos  e facilidade de integração com páginas da web. Outra opção, um equivalente mais próximo do pacote shiny do R, é o pacote dash. Porém, para além da análise de dados, a principal vantagem da Python é o fato de ser uma linguagem de uso geral. Embora ainda não possua certos pacotes estatísticos especializados disponíveis em R, há outros 130 mil pacotes no PyPI (o equivalente do CRAN), em áreas tão diversas quanto edição de áudio e vídeo, construção de sites, astronomia, processamento de texto e manipulações algébricas. A página analisededados.org/pythonr apresenta uma comparação entre Python e R, incluindo uma videoaula. No restante do site há diversos materiais explicativos sobre Python.<p></p>
+
+<h1 id="uma-introdução-ao-machine-learning-com-o-r-4-h">Uma introdução ao Machine Learning com o R – 4 h</h1>
+
+<p><strong>Palestrante</strong>: Paulo Henrique Sales Guimarães - UFLA</p>
+
+<p><p align="justify"> Machine Learning (Aprendizagem de Máquina) é um conjunto de técnicas e procedimentos que permite que os computadores (máquinas) possam agir e tomar decisões baseados em dados, isto é, aprendam por meio dos dados, constituindo atualmente, um dos campos de trabalho mais importantes dentro da Inteligência Artificial. Assim, possibilita a predição e o aprendizado de certos padrões e comportamentos automaticamente, sem a intervenção humana. Este minicurso tem por objetivo introduzir o conceito de Machine Learning utilizando o software R, tratando conceitos básicos na área como aprendizagem supervisionada e não supervisionada, além da classificação, árvores de decisão, aprendizagem baseada em instância (kNN), Naive Bayes, e conceitos básicos sobre máquinas de vetores de suporte (SVM).<p></p>
+
+<h1 id="expressões-regulares-para-preparação-de-base-de-dados-6-h">Expressões Regulares para Preparação de Base de Dados – 6 h</h1>
+
+<p><strong>Palestrante</strong>: Crysttian Arantes Paixão - UFSC</p>
+
+<p><p align="justify"> Serão apresentados os conceitos básicos sobre o uso de expressões regulares para a manipulação de base de dados.  O curso abordará as principais aplicações para o processamento de dados para análise utilizando o software R, destacando a coleta de informações na internet (web scraping).<p></p>
+
+<h1 id="documentos-dinâmicos-usando-o-r-markdown-3h">Documentos dinâmicos usando o R Markdown – 3h</h1>
+
+<p><strong>Palestrante</strong>: Kelly Pereira de Lima - UFLA</p>
+
+<p><p align="justify"> A pesquisa reproduzível é um tema da ciência que tem despertado muito a atenção de
+pesquisadores nos últimos anos, pois sua ideia geral é a realização de uma análise de dados para que a publicação contenha os dados e código para que outras pessoas consigam reproduzir e verificar os resultados. Existem diversos relatos de que um estudo foi repetido e gerou resultado que diferente do original ou mesmo discordante de um estudo anterior. Desta forma, a reprodutibilidade na ciência é altamente reconhecida nos dias atuais, mas ainda não é largamente praticada. Pois, os cientistas ainda não adotaram uma ferramenta para as necessidades da pesquisa reproduzível. Desta forma, esta apresentação mostrará uma ferramenta que é capaz de criar documentos dinâmicos utilizando uma linguagem simples, o R Markdown que possibilita a inclusão de códigos e suas saídas diretamente do R, os documentos em Markdown. Nesta palestra, apresentaremos esta ferramenta que tanto facilita a criação de relatórios e apresentações de análise de dados.<p></p>
+
+<h1 id="an-intuitive-approach-to-machine-learning-boosting-nearest-neighbors-random-forests-and-support-vector-machines-6h">An Intuitive Approach to Machine Learning: Boosting, Nearest Neighbors, Random Forests and Support Vector Machines – 6h</h1>
+
+<p><strong>Palestrante</strong>: Andreas Ziegler - Institute of Medical Biometry and Statistics at the University of Lübeck, Germany</p>
+
+<h1 id="modelagem-de-dados-complexos-uma-introdução-aos-gamlss-8h">Modelagem de dados complexos: uma introdução aos GAMLSS – 8h</h1>
+
+<p><strong>Palestrante</strong>: Luiz Ricardo Nakamura - UFSC</p>
+
+    </div>
+
+    
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/pdf/">pdf</a>
+  
+</div>
+
+
+
+
+    
+    
+    
+
+    
+      
+      
+      
+      
+
+      
+      
+      
+      
+    
+
+  </div>
+</article>
+
+
+
+<div class="container">
+  <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    &copy; DES-UFLA 2018 &middot; 
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+</div>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+        
+      
+
+      
+      
+    
+
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "Search Results",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+
+  </body>
+</html>
+

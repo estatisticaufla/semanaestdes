@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on </title>
+    <link>/home/</link>
+    <description>Recent content in Homes on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <copyright>&amp;copy; DES-UFLA 2018</copyright>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 -0300</lastBuildDate>
+    
+	<atom:link href="/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>/home/about/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0300</pubDate>
+      
+      <guid>/home/about/</guid>
+      <description> I Semana da Estatística do DES Em comemoração aos dois anos de criação do Departamento de Estatística (DES) da Universidade Federal de Lavras (UFLA) e ao dia Internacional da Estatística, acontecerá no período de 15 a 19 de outubro de 2018, a I Semana da Estatística do DES.
+As inscrições são do dia 18 de setembro até dia 11 de outubro em SIG-Eventos. As vagas são limitadas. </description>
+    </item>
+    
+    <item>
+      <title>Programação</title>
+      <link>/home/publications_selected/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0300</pubDate>
+      
+      <guid>/home/publications_selected/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Selected Talks</title>
+      <link>/home/talks_selected/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0300</pubDate>
+      
+      <guid>/home/talks_selected/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Inscrições</title>
+      <link>/home/posts/</link>
+      <pubDate>Mon, 17 Sep 2018 00:00:00 -0300</pubDate>
+      
+      <guid>/home/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Minicursos</title>
+      <link>/home/projects/</link>
+      <pubDate>Mon, 17 Sep 2018 00:00:00 -0300</pubDate>
+      
+      <guid>/home/projects/</guid>
+      <description> Resumos dos minicursos </description>
+    </item>
+    
+    <item>
+      <title>Tutorial</title>
+      <link>/home/teaching/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0300</pubDate>
+      
+      <guid>/home/teaching/</guid>
+      <description>Git e Github para iniciantes - 3 horas Palestrante: Walef Machado de Mendonça - Unifal
+Esse tutorial tem como principal objetivo apresentar o funcionamento do controle de versão, apresentando a forma como o Git pode ser utilizado em projetos e como pode ser utilizado com o Github, a mais famosa rede social para código opensource. Ao final deste minicurso, o participante deverá: 1) Conhecer o funcionamento do controle de versão; saber 2) como configurar o Git e seus comandos básicos; 3) como trabalhar com diferentes branches num projeto; 4) como trabalhar com repositórios remotos no Github e 5) como utilizar o Github pra aprender técnicas novas.</description>
+    </item>
+    
+    <item>
+      <title>Contato</title>
+      <link>/home/contact/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 -0300</pubDate>
+      
+      <guid>/home/contact/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comissão Organizadora</title>
+      <link>/home/organizadora/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/home/organizadora/</guid>
+      <description>Thelma Sáfadi - Presidente
+Izabela Regina C. de Oliveira
+Paulo Henrique S. Guimarães
+Tales Jesus Fernandes.</description>
+    </item>
+    
+  </channel>
+</rss>

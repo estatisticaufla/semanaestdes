@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on </title>
+    <link>/post/</link>
+    <description>Recent content in Posts on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <copyright>&amp;copy; DES-UFLA 2018</copyright>
+    <lastBuildDate>Mon, 17 Sep 2018 00:00:00 -0300</lastBuildDate>
+    
+	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Passo a passo inscrições</title>
+      <link>/post/getting-started/</link>
+      <pubDate>Mon, 17 Sep 2018 00:00:00 -0300</pubDate>
+      
+      <guid>/post/getting-started/</guid>
+      <description>Passos para a inscrição:
+1) Entrar no SIG e procurar a I Semana da Estatística do DES.
+2) Clique em inscrever-se no evento.
+3) Escolha qual(is) você vai querer participar.
+Importante: O valor da inscrição é de R$ 50,00 para não sócios da RBras/ABE e R$ 30,00 para sócios. Caso você queira poderá fazer quantos minicursos quiser, porém, independente do número que escolher o valor é ÚNICO.
+4) Escolhido quais minicursos/tutorial que irá participar, clique em inscrever.</description>
+    </item>
+    
+  </channel>
+</rss>
